@@ -12,15 +12,9 @@
     ],
     "require": {
         "php": ">=5.3.3",
-        "facebook/php-sdk": "dev-master",
-        "silex/silex": "1.0.*"
+        "silex/silex": "1.0.*",
+        "facebook/php-sdk-v4": "^5.2"
     },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/facebookarchive/facebook-php-sdk.git"
-        }
-    ],
     "suggest": {
         "silex/silex": "for the integration with your silex application"
     },
